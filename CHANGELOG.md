@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🚀 Added
 
 ### 🔧 Changed
+
+## [v3.1.1] - 2021-08-25
+### 🚀 Added
+- `aarch64` support (mac, linux, win) [#436](https://github.com/dotenv-linter/dotenv-linter/pull/436) ([@DDtKey](https://github.com/DDtKey))
+
+### 🔧 Changed
+- Fix clippy warnings [#437](https://github.com/dotenv-linter/dotenv-linter/pull/437) ([@mgrachev](https://github.com/mgrachev))
 - Use enum instead of string for lint's identity [#427](https://github.com/dotenv-linter/dotenv-linter/pull/427) ([@fabricio7p](https://github.com/fabricio7p))
 - Get rid of the name field in checks and fixes structs [#432](https://github.com/dotenv-linter/dotenv-linter/pull/432) ([@mgrachev](https://github.com/mgrachev))
 - Replace filter with unwrap on flatten [#434](https://github.com/dotenv-linter/dotenv-linter/pull/434) ([@Fcukit](https://github.com/Fcukit))
@@ -229,6 +236,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Replace field warning with template for all check structs [#26](https://github.com/dotenv-linter/dotenv-linter/pull/26) ([@mgrachev](https://github.com/mgrachev))
 - Prepare a template for easy adding new checks [#14](https://github.com/dotenv-linter/dotenv-linter/pull/14) ([@mgrachev](https://github.com/mgrachev))
 
+[v3.1.1]: https://github.com/dotenv-linter/dotenv-linter/releases/tag/v3.1.1
 [v3.1.0]: https://github.com/dotenv-linter/dotenv-linter/releases/tag/v3.1.0
 [v3.0.0]: https://github.com/dotenv-linter/dotenv-linter/releases/tag/v3.0.0
 [v2.2.1]: https://github.com/dotenv-linter/dotenv-linter/releases/tag/v2.2.1
