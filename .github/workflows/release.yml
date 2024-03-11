@@ -48,7 +48,7 @@ jobs:
 #          chmod +x dotenv-linter
 #          tar -czf dotenv-linter-alpine-aarch64.tar.gz dotenv-linter
       - name: Publish release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: dotenv-linter-*
           draft: true
@@ -77,7 +77,7 @@ jobs:
           chmod +x dotenv-linter
           tar -czf dotenv-linter-darwin-arm64.tar.gz dotenv-linter
       - name: Publish release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: dotenv-linter-*
           draft: true
@@ -161,7 +161,7 @@ jobs:
 #          cargo build --release --target aarch64-pc-windows-msvc
 #          Compress-Archive -Path ".\target\aarch64-pc-windows-msvc\release\dotenv-linter.exe" -DestinationPath ".\dotenv-linter-win-aarch64.zip"
       - name: Publish release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: dotenv-linter-*
           draft: true
